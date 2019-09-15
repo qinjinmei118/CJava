@@ -1,2 +1,1 @@
-# CJava
-从C++转换为Java
+java程序设计作业
