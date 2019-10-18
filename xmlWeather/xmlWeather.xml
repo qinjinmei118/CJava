@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="weather.xsl"?>
+<myblog>
+<menu>
+  <topmenu>
+   <item>首页</item>
+   <hyperlink>index.xml</hyperlink>
+  </topmenu>
+  <topmenu>
+   <item>预报</item>
+   <hyperlink>forcast.xml</hyperlink>
+  </topmenu>
+  <topmenu>
+   <item>雷达</item>
+   <hyperlink>rarea.xml</hyperlink>
+  </topmenu>
+  <topmenu>
+   <item>云图</item>
+   <hyperlink>cloud.xml</hyperlink>
+  </topmenu>
+  <topmenu>
+   <item>临近</item>
+   <hyperlink>reForcast.xml</hyperlink>
+  </topmenu>
+  <topmenu>
+   <item>专业</item>
+   <hyperlink>products.xml</hyperlink>
+  </topmenu>
+  <topmenu>
+   <item>资讯</item>
+   <hyperlink>information.xml</hyperlink>
+  </topmenu>
+  <topmenu>
+   <item>生活</item>
+   <hyperlink>life.xml</hyperlink>
+  </topmenu>
+  <topmenu>
+   <item>交通</item>
+   <hyperlink>transport.xml</hyperlink>
+  </topmenu>
+  <topmenu>
+   <item>产创</item>
+   <hyperlink>create.xml</hyperlink>
+  </topmenu>
+  <topmenu>
+   <item>湖北</item>
+   <hyperlink>hubei.xml</hyperlink>
+  </topmenu>
+  <topmenu>
+   <item>更多</item>
+   <hyperlink>more.xml</hyperlink>
+  </topmenu>
+  <topmenu>
+   <item>登录</item>
+   <hyperlink>login.xml</hyperlink>
+  </topmenu>
+  <topmenu>
+   <item>注册</item>
+   <hyperlink>register.xml</hyperlink>
+  </topmenu>
+</menu>
+
+<banner>
+<logomenu>
+  <item>预报</item>
+  <hyperlink>index.xml</hyperlink>
+</logomenu>
+</banner>
+<bannerinput>
+  <input>
+</input>
+
+</bannerinput>
+
+<main>
+  <mainleft>
+    <address>
+      <navigation>
+        <item>全国></item>
+        <hyperlink>global.xml</hyperlink>
+      </navigation>
+       <navigation>
+        <item>湖北></item>
+        <hyperlink>hubei.xml</hyperlink>
+      </navigation>
+       <navigation>
+        <item>武汉></item>
+        <hyperlink>wuhan.xml</hyperlink>
+      </navigation>
+       <navigation>
+        <item>城区</item>
+        <hyperlink>city.xml</hyperlink>
+      </navigation>
+  </address>
+
+  <day>
+    <days>
+      <item>今天</item>
+      <hyperlink>today.xml</hyperlink>
+    </days>
+    <days>
+      <item>7天</item>
+      <hyperlink>sevenday.xml</hyperlink>
+    </days>
+    <days>
+      <item>8-15天</item>
+      <hyperlink>aboutday.xml</hyperlink>
+    </days>
+    <days>
+      <item>四十天</item>
+      <hyperlink>fortyday.xml</hyperlink>
+    </days>
+    <days>
+      <item>雷达图</item>
+      <hyperlink>raber.xml</hyperlink>
+    </days>
+  </day>
+  <information>
+    <info>
+      <item>日期</item>
+    </info>
+     <info>
+      <item>天气</item>
+    </info>
+     <info>
+      <item>温度</item>
+    </info>
+     <info>
+      <item>风</item>
+    </info>
+  </information>
+  </mainleft>
+
+  <mainright>
+    <news>
+      <forcast>
+        <item>联播天气预报</item>
+        <hyperlink>newsForcast.xml</hyperlink>
+      </forcast>
+    </news>
+
+    <newslist>
+      <list>
+        <item>河北承德锤峰霜叶相映红</item>
+         <hyperlink>hebei.xml</hyperlink>
+      </list>
+       <list>
+        <item>黑天鹅宝宝现身北京圆明园 萌翻游客</item>
+         <hyperlink>black.xml</hyperlink>
+      </list>
+        <list>
+        <item>农民朋友注意了！这2类人土地可能被回收</item>
+         <hyperlink>back.xml</hyperlink>
+      </list>
+    </newslist>
+  </mainright>
+</main>
+</myblog>
