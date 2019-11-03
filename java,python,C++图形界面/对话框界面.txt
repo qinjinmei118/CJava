@@ -1,0 +1,21 @@
+java类界面对话框：
+java语言是通过AWT(抽象窗口化工具包和java基础类（JFC或更常用的Swing)来提供这些GUI
+组件的。Swing是Java提供一组丰富的与平台无关的方式来创建图形用户界面的库。
+Swing API 可扩展 GUI组件，以减轻开发者的生活创造基于JAVA前端/GUI应用。
+它是建立在AWT API之上，并作为 AWT API 的更换，因为它几乎每一个控制对应 AWT控制。
+
+C++类界面MFC
+MFC中的各种类结合起来构成了一个英语程序框架，它的目的是让程序在此基础上来建立Windows
+下的应用程序，这是一种相对SDK来说更为简单的方法。MFC框架定义了应用程序的轮廓，并提供用户接口标准实现方法，
+程序员要做的是通过预定义接口把具体应用程序特有的大小填入这个轮廓。AppWizard可以用来生成初步的框架文件（代码和资源等）；
+资源编辑器用于帮助直观地设计用户接口；ClassWizard用来协助添加代码到框架文件；最后，编译，则通过类库实现了应用程序特定的逻辑。
+
+python界面的对话框：
+python创建对话框使用了Tkinter
+Tkinter 是 Python 的标准 GUI 库。Python 使用 Tkinter 可以快速的创建 GUI 应用程序。
+Tkinter 在 simpledialog 和 dialog 模块下分别提供了 SimpleDialog 类和 Dialog 类，它们都可作为普通对话框使用，而且用法也差不多。
+创建一个GUI程序
+1、导入 Tkinter 模块
+2、创建控件
+3、指定这个控件的 master， 即这个控件属于哪一个
+4、告诉 GM(geometry manager) 有一个控件产生了。
